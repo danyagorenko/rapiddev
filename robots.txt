@@ -1,4 +1,5 @@
 User-Agent: *
+Allow: /sitemap.xml
 Disallow: /version-test/
 Disallow: /page12579860.html
 Disallow: /calculateold
