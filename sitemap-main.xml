@@ -1061,6 +1061,42 @@ https://www.includehelp.com/tools/xml-sitemap-generator.aspx
 	<priority>1.0</priority>
 </url>
 <url>
+	<loc>https://www.welovenocode.com/all-devs</loc>
+	<lastmod>2023-04-24</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.welovenocode.com/all-projects</loc>
+	<lastmod>2023-04-24</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.welovenocode.com/all-agencies</loc>
+	<lastmod>2023-04-24</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.welovenocode.com/all-hires</loc>
+	<lastmod>2023-04-24</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://welovenocode.com/guides</loc>
+	<lastmod>2023-04-24</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.welovenocode.com/alll-jobs</loc>
+	<lastmod>2023-04-24</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>1.0</priority>
+</url>
+<url>
 	<loc>https://www.welovenocode.com/no-code-reviews</loc>
 	<lastmod>2023-04-24</lastmod>
 	<changefreq>weekly</changefreq>
