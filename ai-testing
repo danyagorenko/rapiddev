@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Valorant Queen</title>
+    <style>
+        body {
+            background-color: #5C374C;
+            font-family: 'DM Sans', sans-serif;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            padding: 50px 0;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .image-desc {
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Valorant Queen - Marina Nizkaia</h1>
+    <div id="images-container"></div>
+
+    <script>
+        const page = {
+            subject: "Marina Nizkaia",
+            pageTitle: "Valorant Queen",
+            colors: ["#5C374C"],
+            typography: "sans-serif",
+            imageDescriptions: [
+                "A player deeply focused on her gaming screen",
+                "A pair of hands swiftly moving across the keyboard and mouse",
+                "Closeup of a computer screen showing Valorant gameplay",
+                "A computer setup with Valorant themed decorations",
+                "A thrilling moment in the game showing the player's character making a strategic move"
+            ],
+            lightness: "0.2",
+            creativity: "0.9"
+        }
+
+        const images = [
+            "https://static.tildacdn.com/tild3837-3364-4437-b764-616566636133/GettyImages-11906411.jpg",
+            "https://static.tildacdn.com/tild3237-3731-4861-b630-636338613164/Mouse-Sensitivity-Co.jpg",
+            "https://static.tildacdn.com/tild3832-3539-4738-b433-393330316133/valorant.jpg",
+            "https://static.tildacdn.com/tild6164-6663-4461-b234-643732396333/885321d9a8a46352b557.jpg",
+            "https://static.tildacdn.com/tild3961-3238-4663-a436-653264356462/valorant-tier-list-b.jpg"
+        ]
+
+        const imagesContainer = document.getElementById('images-container');
+        
+        images.forEach((image, index) => {
+            const imgElement = document.createElement('img');
+            imgElement.src = image;
+            imgElement.alt = page.imageDescriptions[index];
+
+            const descElement = document.createElement('p');
+            descElement.className = 'image-desc';
+            descElement.innerText = page.imageDescriptions[index];
+
+            imagesContainer.appendChild(imgElement);
+            imagesContainer.appendChild(descElement);
+        });
+    </script>
+</body>
+</html>
