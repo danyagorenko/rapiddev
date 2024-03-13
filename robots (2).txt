@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /sitemap.xml
+Disallow: /matt-graham-author?*_page=*
+Disallow: /no-code-articles-directory?*_page=*
+Disallow: /plugins-page?*_page=*
+Sitemap: https://sitemap.rapidevelopers.com//sitemap.xml
